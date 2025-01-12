@@ -14,9 +14,11 @@ const StairTranstion = () => {
           <motion.div
             className="h-screen w-screen fixed bg-primary top-0 pointer-events-none"
             initial={{ opacity: 1 }}
-            animate={{ opacity: 0 }}
+            animate={{
+              opacity: 0,
+              transition: { delay: 1, duration: 0.3, ease: "easeInOut" },
+            }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.5, ease: [0.43, 0.13, 0.28, 0.96] }}
           />
         </div>
       </AnimatePresence>

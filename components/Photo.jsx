@@ -18,20 +18,20 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 0.9, duration: 0.3, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:h-[498px] xl:w-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:h-[478px] xl:w-[478px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/Md_Tanvir MernStackDeveloper.png"
             priority
             quality={100}
             fill
             alt=""
-            className="object-contain"
+            className="object-contain mt-0 xl:mt-6"
           />
         </motion.div>
         {/* ----------circle------- */}
         <motion.svg
-          className={"w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"}
+          className={"w-[300px] xl:w-[506px] h-[300px] xl:h-[510px]"}
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const Photo = () => {
           <motion.circle
             cx="253"
             cy="253"
-            r="250"
+            r="253"
             stroke="#00ff99"
             strokeWidth={"4"}
             strokeLinecap={"round"}

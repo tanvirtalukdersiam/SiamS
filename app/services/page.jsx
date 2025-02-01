@@ -8,21 +8,21 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Web development involves designing, coding, and optimizing websites functionality, user experience & responsiveness",
+      "Web development involves designing, coding, and optimizing websites functionality, user experience & responsiveness.",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX Design",
     description:
-      "UI/UX design focuses on creating intuitive, user-friendly interfaces and seamless experiences for digital products",
+      "UI/UX design focuses on creating intuitive, user-friendly interfaces and seamless experiences for digital products.",
     href: "",
   },
   {
     num: "03",
     title: "SEO",
     description:
-      "SEO optimizes websites to improve search engine rankings, increase visibility, and drive organic traffic effectively",
+      "SEO optimizes websites to improve search engine rankings, increase visibility and drive organic traffic effectively.",
     href: "",
   },
 ];
